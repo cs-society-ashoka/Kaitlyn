@@ -5,10 +5,10 @@
 
 export const config = {
   /** Your name */
-  senderName: "Granthana",
+  senderName: "Kaitlyn",
 
   /** Your Valentine's name */
-  recipientName: "Ivirah",
+  recipientName: "Ragheshwar",
 
   /** Your personal message (used in Mixtape lyrics, Sealed Letter, etc.) */
   message:
@@ -16,14 +16,14 @@ export const config = {
 
   /** Photo URLs for photo-heavy templates (Memory Cloud, Mixtape, 90s Desktop) */
   photos: [
-    "photos/photo1.jpeg",
-    "photos/photo2.jpeg",
-    "photos/photo3.jpeg",
-    "photos/photo4.png",
-    "photos/photo5.jpeg",
-    "photos/photo6.png",
-    "photos/photo7.jpeg",
-    "photos/photo8.jpeg",
+    "photos/1.jpeg",
+    "photos/2.jpeg",
+    "photos/3.jpeg",
+    "photos/4.png",
+    "photos/5.jpeg",
+    "photos/6.png",
+    "photos/7.jpeg",
+    "photos/8.jpeg",
 ],
 logo: "photos/logo.png",
 audioUrl: "audio/final_audio.mp3",
