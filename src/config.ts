@@ -23,6 +23,7 @@ export const config = {
     "photos/photo5.jpeg",
     "photos/photo6.png",
     "photos/photo7.jpeg",
+    "photos/photo8.jpeg",
 ],
 logo: "photos/logo.png",
 audioUrl: "audio/final_audio.mp3",

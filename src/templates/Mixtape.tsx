@@ -292,14 +292,14 @@ const Mixtape = () => {
             animate={{ opacity: 1 }}
             className="relative flex min-h-screen flex-col items-center justify-center px-4"
           >
-            {/* Photo mosaic background */}
+            {/* Photo mosaic background — 8 equal cells in a 4×2 grid */}
             <div className="pointer-events-none absolute inset-0 grid grid-cols-4 gap-2 p-4 opacity-10">
-              {config.photos.map((photo, i) => (
+              {config.photos.slice(0, 8).map((photo, i) => (
                 <img
                   key={i}
                   src={photo}
                   alt=""
-                  className={`h-full w-full rounded object-cover ${i === 6 ? "col-span-2" : ""}`}
+                  className="h-full w-full rounded object-cover"
                   style={{ transform: `rotate(${(i % 2 === 0 ? 1 : -1) * (2 + i)}deg)` }}
                 />
               ))}
